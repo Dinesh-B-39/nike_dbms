@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+
+.symbol{
+    height: 65px;
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    margin-left: 25px;
+}
+.ee{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.always{
+    background-color: rgb(128, 201, 204);
+    padding-bottom: 23px;
+}
+.start{
+    width: 250px;
+    position: relative;
+    top: 75px;
+    left: 33px;
+    display: inline-block;
+}
+.icon{
+    position: absolute;
+    left: 70%;
+    top: 55px;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+i{
+    margin-left: 45px;
+    cursor: pointer;
+}
+.void{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pp{
+    line-height: 20px;
+    margin-top: 7px;
+}
+.expo{
+    margin-bottom: 9px;
+}
+
+.ss{
+    width: 120px;
+    cursor: pointer;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 55px;
+    margin-top: 45px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.detail{
+    line-height: 23px;
+    position: absolute;
+    left: 30%;
+    top: 61%;
+    line-height: 17px;
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 67px;
+
+}
+   
+.copy1{
+    height: 280px;
+    width: 235px;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+}
+.c1,.c2,.c3{
+    cursor: pointer;
+}
+   
+.copy2{
+    height: 280px;
+    width: 235px;
+    position: absolute;
+    top: 26%;
+    left: 54%;
+}
+.detail2{
+    line-height: 23px;
+    position: absolute;
+    left: 54%;
+    top: 61%;
+    line-height: 17px;
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 54px;
+
+}
+.copy3{
+    height: 280px;
+    width: 235px;
+    position: absolute;
+    top: 26%;
+    left: 78%;
+}
+.detail3{
+    line-height: 23px;
+    position: absolute;
+    left: 78%;
+    top: 59.3%;
+    line-height: 17px;
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+.types{
+    position: absolute;
+    margin-top: 45px;
+    left: 95px;
+}
+.types2{
+    position: absolute;
+    margin-top: 45px;
+    left: 350px;
+    
+    
+}
+.nike{
+    position: absolute;
+    left: 50%;
+}
+.oo{
+    font-size: 27px;
+    font-family: cursive;
+}
+.v1{
+    top: 86%;
+    position: absolute;
+}
+    
+.black{
+
+    background-color: black;
+    color: white;
+    padding-bottom:250px;
+    width: 100%;
+    position: absolute;
+    padding-left: 35px;
+    top: 81%;
+}
+.buy{
+    height: 32px;
+    width: 88px;
+    position: absolute;
+    top: 110%;
+    border-radius: 115px;
+    background-color:cyan ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.a11{
+    color: brown;
+
+}
+.a33{
+    color: gray;
+}
+.a44{
+    color: gray;
+}

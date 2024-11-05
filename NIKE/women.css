@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:white;
+}
+
+.symbol{
+    height: 65px;
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    margin-left: 25px;
+}
+.ee{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.icon{
+    position: absolute;
+    left: 70%;
+    top: 55px;
+}
+i{
+    margin-left: 45px;
+    cursor: pointer;
+}
+.model{
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    height: 450px;
+}
+.nikex{
+    height: 45px;
+    position: absolute;
+    top: 84%;
+    left: 86.3%;
+}
+.always{
+    background-color: rgb(128, 201, 204);
+    padding-bottom: 23px;
+}
+.about{
+    position: absolute;
+    top: 40%;
+    left: 16%;
+
+}
+.year{
+    font-size: 144px;
+    font-family: cursive;
+}
+.late{
+    font-size: 59px;
+    margin-left: 75px
+
+}
+.soe{
+    height: 225px;
+}
+.super{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.shoe1{
+    position: absolute;
+    width: 225px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    top: 100%;
+    width: 277px;
+    margin: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.dress1{
+    position: absolute;
+    width: 225px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 200%;
+    width: 277px;
+    margin: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.soe:hover{
+    height: 255px;
+    width: 250px;
+}
+
+.shoe2{
+    position: absolute;
+    width: 225px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    left: 35%;
+    top: 100%;
+    width: 277px;
+    margin: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.dress2{
+    position: absolute;
+    width: 225px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 14px;
+    left: 35%;
+    top: 200%;
+    width: 277px;
+    margin: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.shoe3{
+    position: absolute;
+    width: 225px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    left: 72%;
+    top: 100%;
+    width: 277px;
+    margin: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.dress3{
+    position: absolute;
+    width: 225px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 72%;
+    top: 200%;
+    width: 277px;
+    margin: 15px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.nike{
+    position: absolute;
+    left: 50%;
+}
+.oo{
+    font-size: 27px;
+    font-family: cursive;
+}
+.v1{
+    top: 86%;
+    position: absolute;
+}
+.types{
+    position: absolute;
+    margin-top: 45px;
+    left: 95px;
+}
+.cart{
+    margin-top: 9px;
+    width: 95px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.types2{
+    position: absolute;
+    margin-top: 45px;
+    left: 350px;
+    
+    
+}
+    
+.black{
+    margin-top: 55px;
+    background-color: black;
+    color: white;
+    padding-bottom:250px;
+    width: 100%;
+    position: absolute;
+    padding-left: 35px;
+    top: 270%;
+}
+
+
+
+
+
+
+
+.visu{
+    width: 255px;
+    margin-left: 13px;
+}
+
+.just{
+    color: brown;
+    margin-bottom: 5px;
+}
+.comp{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mee,.col{
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.price{
+    margin-top: 7px;
+}
+.next{
+    position: absolute;
+    color: cornflowerblue;
+    top: 185%;
+    left: 33%;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buy{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 103%;
+    border-radius: 8px;
+    left: 13.5%;
+    border: none;
+    background-color:cadetblue ;
+    color: black;
+    cursor: pointer;
+
+}
+.buy:hover,.buy1:hover,.buy2:hover,.buy3:hover,.buy5:hover,.buy4:hover{
+    height:40px ;
+    width: 120px;
+
+}
+.buy1{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 103%;
+    border-radius: 8px;
+    left: 14.5%;
+    border: none;
+    background-color:cadetblue ;
+    color: black;
+    cursor: pointer;
+}
+.buy2{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 103%;
+    border-radius: 8px;
+    left: 15.5%;
+    border: none;
+    background-color:cadetblue ;
+    color: black;
+    cursor: pointer;
+}
+.buy3{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 95%;
+    border-radius: 8px;
+    left: 13.5%;
+    border: none;
+    background-color:cadetblue ;
+    color: black;
+    cursor: pointer;
+}
+.buy4{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 98%;
+    border-radius: 8px;
+    left: 14%;
+    border: none;
+    background-color:cadetblue ;
+    color: black;
+    cursor: pointer;
+}
+.buy5{
+    height: 32px;
+    width: 100px;
+    position: absolute;
+    top: 94.5%;
+    border-radius: 8px;
+    left: 15%;
+    border: none;
+    background-color:cadetblue ;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+

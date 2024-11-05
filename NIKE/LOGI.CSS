@@ -1,0 +1,86 @@
+*{
+    border: 0;
+    padding: 0;
+}
+body{
+    background: url("nike_shoe_in_background_of_banner_hd_nike-t2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.online{
+    border-color: black;
+    border-width: 1.1px;
+    border-style: solid;
+    padding-left: 35px;
+   width: 335px;
+   position: absolute;
+   left: 35%;
+   top: 30%;
+   background-color: transparent;
+}
+.hh{
+    position: relative;
+    left: 35%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.user,.akbar{
+    background: none;
+    position: relative;
+    left: 9px;
+    bottom: 5px;
+    color:white;
+}
+.user2,.user3{
+    position: relative;
+    left: 75px;
+    top: 4px;
+}
+.pp{
+    margin-top: 23px;
+    margin-bottom: 19px;
+}
+.ee,.pp{
+    
+    border-radius: 25px;
+    border-color:white;
+    border-width: 0.6px;
+    border-style: solid;
+    vertical-align: bottom;
+    height: 29px;
+    width: 290px;
+}
+.aa{
+    position: relative;
+    right: 3px;
+    color: white;
+    font-style: italic;
+}
+.bb{
+    position: relative;
+    left: 55px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+}
+.rim{
+    margin-bottom: 15px;
+}
+.in{
+    width: 295px;
+    height: 32px;
+    color: white;
+    border-radius: 74px;
+    font-weight: bolder;
+}
+.do{
+    position: relative;
+    left: 42px;
+    color: white;
+}
+in{
+    cursor: pointer;
+}
+.sp{
+    color: white;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; display: flex; align-items: center; justify-content: center; height: 100vh; overflow: hidden;">
+
+  <!-- Container for Success Message -->
+  <div style="background-color: #fff; width: 90%; max-width: 500px; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); text-align: center; animation: slideIn 1s ease-out;">
+    
+    <!-- Success Icon -->
+    <div style="font-size: 50px; color: #4CAF50; margin-bottom: 20px; animation: bounce 1s infinite;">&#10003;</div>
+    
+    <!-- Order Confirmation Message -->
+    <h2 style="color: #111; font-size: 24px; margin-bottom: 10px; animation: fadeIn 2s ease-out;">Order Placed Successfully!</h2>
+    <p style="color: #666; font-size: 16px; margin-bottom: 20px; animation: fadeIn 2s ease-out;">Thank you for shopping with us. Your order has been placed and is being processed.</p>
+    
+    <!-- Thank You Note -->
+    <p style="color: #888; font-size: 14px; animation: fadeIn 3s ease-out;">We appreciate your purchase and hope you enjoy our product!</p>
+    
+    <!-- Back to Home Button -->
+    <a href="nike1.html" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #111; color: #fff; text-decoration: none; border-radius: 5px; font-size: 16px; animation: fadeIn 3s ease-out;">Go to Home</a>
+  </div>
+  
+  <!-- Confetti Animation -->
+  <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+    <div style="position: absolute; width: 10px; height: 10px; background-color: #4CAF50; top: 0; left: 50%; animation: confetti 2.5s infinite ease-in-out; transform: translateX(-50%);"></div>
+    <div style="position: absolute; width: 10px; height: 10px; background-color: #FF5722; top: 0; left: 30%; animation: confetti 2s infinite ease-in-out; transform: translateX(-50%);"></div>
+    <div style="position: absolute; width: 10px; height: 10px; background-color: #FFC107; top: 0; left: 70%; animation: confetti 3s infinite ease-in-out; transform: translateX(-50%);"></div>
+  </div>
+
+  <!-- Inline CSS Animations -->
+  <style>
+    /* Slide-in effect */
+    @keyframes slideIn {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Bounce effect for success icon */
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    /* Fade-in effect */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Confetti effect */
+    @keyframes confetti {
+      0% { opacity: 1; transform: translateY(0) rotate(0); }
+      100% { opacity: 0; transform: translateY(100vh) rotate(360deg); }
+    }
+  </style>
+
+</body>
+</html>

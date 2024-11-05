@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike - Contact Details</title>
+  <style>
+    /* Keyframes for animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    @keyframes buttonHover {
+      0% { background-color: #111; }
+      50% { background-color: #333; }
+      100% { background-color: #111; }
+    }
+
+    /* General Body Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('vs.jpg'); /* Ensure this image path is correct */
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      animation: fadeIn 1s ease-out;
+    }
+
+    /* Form Container */
+    .form-container {
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 90%;
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    /* Logo */
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    /* Form Heading */
+    h2 {
+      color: #111;
+      margin-bottom: 20px;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    /* Input Fields */
+    .form-container input[type="text"],
+    .form-container input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      transition: border-color 0.3s;
+      animation: fadeIn 1.8s ease-out;
+    }
+
+    /* Input Field Hover and Focus Effects */
+    .form-container input[type="text"]:focus,
+    .form-container input[type="tel"]:focus {
+      border-color: #111;
+      outline: none;
+      animation: pulse 1.5s infinite;
+    }
+
+    /* Submit Button */
+    .submit-button {
+      width: 100%;
+      background-color: #111;
+      color: white;
+      font-size: 16px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+      animation: fadeIn 2s ease-out;
+    }
+
+    /* Button Hover Animation */
+    .submit-button:hover {
+      animation: buttonHover 0.8s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Main Container -->
+  <div class="form-container">
+    
+    <!-- Nike Logo -->
+    <img src="symbol.png" alt="Nike Logo" class="logo">
+    
+    <h2>Enter Your Details</h2>
+    
+    <!-- Form that submits to "final.html" -->
+    <form action="final.html" method="GET" style="display: flex; flex-direction: column; align-items: center;">
+      <!-- Name Field -->
+      <label for="name" style="font-size: 14px; color: #333; align-self: flex-start; margin-bottom: 5px;">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required value="">
+      
+      <!-- Phone Number Field -->
+      <label for="phone" style="font-size: 14px; color: #333; align-self: flex-start; margin-bottom: 5px;">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required value="">
+      
+      <!-- Address Field -->
+      <label for="address" style="font-size: 14px; color: #333; align-self: flex-start; margin-bottom: 5px;">Address</label>
+      <input type="text" id="address" name="address" placeholder="Enter your address" required value="">
+      
+      <!-- Submit Button -->
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
